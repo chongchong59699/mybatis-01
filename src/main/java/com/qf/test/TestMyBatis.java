@@ -59,7 +59,7 @@ public class TestMyBatis {
     @Test
     public void test_lazyLoad(){
         UserMapper userMapper = MyBatisUtils.getMapper(UserMapper.class);
-        //List<User> list = userMapper.findAll();123
+        //List<User> list = userMapper.findAll();1234
         int size = userMapper.findAll().size();
     }
 
