@@ -10,7 +10,7 @@ import java.io.IOException;
 public class ShowUserByPageServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         Integer pageNum = getPageNum(request.getParameter("pageNum"));
-
+        //123456
         UserService userService = new UserServiceImpl();
         PageInfo pageInfo = userService.getPageInfo(pageNum, 2);
         //System.out.println(pageInfo);

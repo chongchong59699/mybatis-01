@@ -18,6 +18,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-01" />
+        <module name="testClone" />
       </profile>
     </annotationProcessing>
   </component>
